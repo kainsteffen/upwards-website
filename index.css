@@ -63,6 +63,7 @@ article img
    display:inline-block;
    float: none;
    width: 25%;
+   min-width: 200px;
    box-shadow: none;
 }
 
@@ -72,38 +73,9 @@ footer
    border-top: 2px solid white;
 }
 
-@media screen and (max-width: 480px) {
-   section
-   {
-        margin:0% 5% 0 5%;
-   }
-   article img
-   {
-      width: 100%;
-   }
 
-   .storelink
-   {
-      width: 50%;
-   }
-}
 
-   @media screen and (max-device-width: 568px){
-      section
-      {
-           margin:0% 5% 0 5%;
-      }
-      article img
-      {
-         width: 100%;
-      }
 
-      .storelink
-      {
-         width: 50%;
-      }
-
-   }
 
    @media screen and (max-device-width: 1000px){
       section
@@ -118,8 +90,44 @@ footer
       .storelink
       {
          width: 30%;
+         min-width: 150px;
       }
 
+   }
+
+   @media screen and (max-device-width: 568px){
+      section
+      {
+           margin:0% 5% 0 5%;
+      }
+      article img
+      {
+         width: 100%;
+         min-width: 150px;
+      }
+
+      .storelink
+      {
+         width: 50%;
+      }
+
+   }
+
+   @media screen and (max-width: 480px) {
+      section
+      {
+           margin:0% 5% 0 5%;
+      }
+      article img
+      {
+         width: 100%;
+         min-width: 150px;
+      }
+
+      .storelink
+      {
+         width: 50%;
+      }
    }
 
 }
