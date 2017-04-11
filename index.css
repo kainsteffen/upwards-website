@@ -8,7 +8,13 @@
 html
 {
     font-family: "Roboto",sans-serif;
+    font-weight: 100;
     font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+   font-weight: 100;
 }
 
 body
@@ -17,10 +23,61 @@ body
     margin: 0%;
     padding: 0%;
     color: white;
-    background-color: #00ADB5;
+    background-color: #4AA0D5;
+    text-align: center;
 }
 
 section
 {
-     margin: auto;
+     margin: 0 20% 0 20%;
+}
+
+section article
+{
+   text-align: center;
+   display: block;
+   overflow: hidden;
+
+   border-top: 2px solid white;
+   padding: 5% 5%;
+}
+
+section article h2
+{
+   margin-top: 0;
+   margin-bottom: 5%;
+}
+
+section article div
+{
+   position: relative;
+   height: 600px;
+}
+
+section article div #phone
+{
+   position: absolute;
+   left: 20px;
+   height: 600px;
+}
+
+section article div #gameplay
+{
+   position: absolute;
+   top: 95px;
+   left: 207px;
+   height: 407px;
+}
+
+
+.storelink
+{
+   float: none;
+   height: 100px;
+}
+
+footer
+{
+   padding: 2% 0;
+   border-top: 2px solid white;
 }
