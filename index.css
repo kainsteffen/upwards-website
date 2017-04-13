@@ -57,11 +57,35 @@ article img
    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.storelink
+#appstore
+{
+   display:inline-block;
+   /*overflow:hidden;*/
+   background: "https://linkmaker.itunes.apple.com/assets/shared/badges/de-de/appstore-lrg.svg"  no-repeat;
+   width:135px;
+   height:40px;
+   background-size:contain;
+}
+
+#store_links
 {
    margin-bottom: 5%;
+}
+
+.apple_link
+{
+      display:inline-block;
+      vertical-align: middle;
+      width: 20%;
+      min-width: 170px;
+      box-shadow: none;
+}
+
+.google_link
+{
+
    display:inline-block;
-   float: none;
+   vertical-align: middle;
    width: 25%;
    min-width: 200px;
    box-shadow: none;
